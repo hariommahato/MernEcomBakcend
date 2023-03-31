@@ -12,7 +12,7 @@ app.use(cookieParser());
 app.use(bodyParser.json({limit: '500mb'}));
 app.use(bodyParser.urlencoded({limit: '500mb', extended: true}));
 app.use(cors({
-    origin:"https://ecommerce.onrender.com"
+    origin:"https://mern-ecommerce-frontend.onrender.com"
 }));
 app.use(fileUpload());
 const product = require("./routes/productRoute");
